@@ -20,9 +20,9 @@ ai_sql_assistant/
 ## Requirements
 - Python 3.10+
 - [Ollama](https://ollama.com/) installed and running
-- A model pulled locally, for example `ollama pull qwen2.5-coder:7b`
+- A model pulled locally, for example `llama3:8b`
 
-> You can use `codellama` if it is already installed, but a current code model such as `qwen2.5-coder:7b` is a reasonable starting point.
+> You can use `codellama` if it is already installed, but a current code model such as `llama3:8b` is a reasonable starting point.
 
 ## Run on Windows PowerShell
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ollama serve
 
 # 4. Download the model (run once)
-ollama pull qwen2.5-coder:7b
+ollama pull llama3:8b
 
 # 5. Create the sample database
 python setup_database.py
